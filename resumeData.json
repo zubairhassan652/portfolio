@@ -29,7 +29,7 @@
       },
       {
         "name": "skype",
-        "url": "http://skype.com",
+        "url": "https://www.skype.com/en/?live:zubairhassan652_1",
         "className": "fa fa-skype"
       }
     ]
@@ -49,7 +49,7 @@
         "company": "Alchemative",
         "title": "Python Developer ",
         "years": "November 2019 - Present",
-        "description": "Here i develop the following skill set. \r- Improving Django, Django Rest Framework and Django Templates \n- React \n- Matrial UI \n- Responsiveness \n- Consume shopify restful api's \n- Building and integrating custom apps for shopify \n- Docker \n- Git and Bitbucket \n- Product Development \n- Working on live project or product \n- Agile development \n. \n. \n.\n- the journey is continuous to learn new things and become better in existing."
+        "description": "Here i develop the following skill set. \n- Improving Django, Django Rest Framework and Django Templates \n- React \n- Matrial UI \n- Responsiveness \n- Consume shopify restful api's \n- Building and integrating custom apps for shopify \n- Docker \n- Git and Bitbucket \n- Product Development \n- Working on live project or product \n- Agile development \n. \n. \n.\n- the journey is continuous to learn new things and become better in existing."
       },
       {
         "company": "Hexa Soft",
@@ -93,33 +93,33 @@
     "projects": [
       {
         "title": "Somni",
-        "category": "My Travel Blog for my post-university travels",
+        "category": "This is an E-Commerce solution product",
         "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "url": "http://smni.alchemative.net/"
       },
       {
         "title": "Facebook Feed",
-        "category": "(offline now) A fighting gear company I started",
-        "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "category": "Digital Marketing supporting aap",
+        "image": "facebookfeed.png",
+        "url": "https://frontend-facebook-feed.alchemative.net/"
       },
       {
-        "title": "EasyCorp(Blockchain)",
-        "category": "Website I built for a restaurant I like in Thailand",
-        "image": "original-thai-food.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "title": "Cellon",
+        "category": "Shopify restapi's spacific data view of a shopify store",
+        "image": "cellon.png",
+        "url": "https://cellon.alchemative.net/"
       },
       {
         "title": "Resume Website",
         "category": "A React based resume website template",
         "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "url": "https://zubairhassan652.github.io/portfolio/"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
+        "title": "Digital Marking",
+        "category": "Website for omr reading",
+        "image": "digitalmarking.png",
+        "url": "https://digitalmarking.pythonanywhere.com/"
       }
     ]
   },
