@@ -8,7 +8,7 @@ export default Experience
 
 function Experience() {
     
-    const [state, setState] = useState(
+    const [state] = useState(
         [
             {
                 logo: ArbisoftLogo,

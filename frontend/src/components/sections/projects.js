@@ -7,7 +7,7 @@ import SomniLogo from '../../static/images/somni.png';
 
 
 export default function Projects() {
-    const [state, setState] = useState(
+    const [state] = useState(
         [
             {
                 logo: SomniLogo,
@@ -77,7 +77,7 @@ export function ProjectsCard(props) {
                     )}
                     </div>
                 </div>
-                <img className="project-image" src={project.logo} />
+                <img className="project-image" src={project.logo} alt='project logo'/>
             </div>     
         </div>
         

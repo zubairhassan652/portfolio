@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 export default function Skills () {
-    const [state, setState] = useState([
+    const [state] = useState([
         'python',
         'django',
         'react',

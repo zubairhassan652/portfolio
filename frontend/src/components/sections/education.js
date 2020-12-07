@@ -1,6 +1,5 @@
 import React from 'react';
 import './sections.css';
-import AWSLOGO from '../../aws.jpg';
 import PucitLogo from '../../static/images/pucit.png';
 
 
