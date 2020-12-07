@@ -32,7 +32,7 @@ jobs:
     - name: Install nodejs packages
       run: |
         cd /home/zubairhassan652/portfolio/frontend
-        npm install
+        npm install --no-optional
         npm run build     
         
     - name: Update database and collect static files
