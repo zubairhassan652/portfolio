@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: [gcp-runner]
+    runs-on: [gcp-server]
     steps:
     - uses: actions/checkout@v2
       with:
