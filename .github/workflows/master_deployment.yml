@@ -25,15 +25,13 @@ jobs:
       run: |
         cd /home/zubairhassan652/portfolio
         source venv/bin/activate
-        cd /home/zubairhassan652/portfolio
         python3 -m pip install --upgrade pip
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi    
+        sudo if [ -f requirements.txt ]; then pip install -r requirements.txt; fi    
         
     - name: Update database and collect static files
       run: |
         cd /home/zubairhassan652/portfolio
         source venv/bin/activate
-        cd /home/zubairhassan652/portfolio
         python3 manage.py migrate
         python3 manage.py collectstatic --no-input
     
@@ -41,7 +39,6 @@ jobs:
       run: |
         cd /home/zubairhassan652/portfolio
         source venv/bin/activate
-        cd /home/zubairhassan652/portfolio
         coverage run --source=backend manage.py test
         coverage report --omit=*test*,*apps.py*,*seeder*,*__init__.py*,*migrations*
         pylint --rcfile=.pylintrc backend/ || exit 0
