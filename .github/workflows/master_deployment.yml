@@ -42,9 +42,9 @@ jobs:
         cd /home/zubairhassan652/portfolio
         source venv/bin/activate
         cd /home/zubairhassan652/portfolio
-        coverage run --source=resumeapp manage.py test
+        coverage run --source=backend manage.py test
         coverage report --omit=*test*,*apps.py*,*seeder*,*__init__.py*,*migrations*
-        pylint --rcfile=.pylintrc resumeapp/ || exit 0
+        pylint --rcfile=.pylintrc backend/ || exit 0
     
     - name: Restart Supervisor
       run: |
