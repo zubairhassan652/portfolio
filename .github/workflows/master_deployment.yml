@@ -48,9 +48,7 @@ jobs:
     
     - name: Restart Supervisor
       run: |
-        sudo systemctl restart gunicorn
-    
-      # sudo supervisorctl restart all
+        sudo supervisorctl restart all
 
         
 # sudo systemctl restart gunicorn
