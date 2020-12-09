@@ -26,7 +26,7 @@ jobs:
         cd /home/zubairhassan652/portfolio
         source venv/bin/activate
         python3 -m pip install --upgrade pip
-        sudo pip install -r requirements.txt    
+        pip install -r requirements.txt    
         
     - name: Update database and collect static files
       run: |
