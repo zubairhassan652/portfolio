@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: [gcp-server]
+    runs-on: [vulttr-server]
     steps:
     - uses: actions/checkout@v2
       with:
