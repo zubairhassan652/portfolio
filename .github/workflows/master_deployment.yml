@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: [vulttr-server]
+    runs-on: [vultr-server]
     steps:
     - uses: actions/checkout@v2
       with:
