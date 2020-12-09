@@ -12,10 +12,7 @@ jobs:
     runs-on: [vultr-server]
     steps:
     - uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
-        ref: master
-
+    
     - name: Grab the code
       run: |
         cd /home/zubairhassan652/portfolio
