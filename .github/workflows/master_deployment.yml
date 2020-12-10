@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: [self-hosted, vulttr-server]
+    runs-on: [self-hosted, dev2-server]
     steps:
     - uses: actions/checkout@v2
 
