@@ -26,8 +26,9 @@ jobs:
         pip install -r requirements.txt    
         
     - name: Nodejs build react app
-    cd /home/zubairhassan652/portfolio/frontend
-    npm run build
+      run: |
+        cd /home/zubairhassan652/portfolio/frontend
+        npm run build
     
     - name: Update database and collect static files
       run: |
