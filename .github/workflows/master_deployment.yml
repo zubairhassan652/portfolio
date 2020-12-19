@@ -20,4 +20,5 @@ jobs:
     - name: Nodejs build react app
       run: |
         cd /home/zubairhassan652/portfolio
+        npm install --no-optional
         npm run build
