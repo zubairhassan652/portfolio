@@ -1,6 +1,7 @@
 FROM mhart/alpine-node
 WORKDIR /app
-RUN yarn && yarn build
+RUN yarn
+RUN yarn build
 COPY /buildenv .
 COPY /build .
 RUN yarn global add serve
