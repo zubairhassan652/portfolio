@@ -1,5 +1,0 @@
-build:
-  docker:
-    web: Dockerfile
-run:
-  web: serve -s . -l tcp://0.0.0.0:8080
