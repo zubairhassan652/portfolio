@@ -1,6 +1,6 @@
 FROM mhart/alpine-node
 WORKDIR /app
-COPY /build .
 COPY /buildenv .
+COPY /build .
 RUN yarn
 CMD ["yarn", "p"]
