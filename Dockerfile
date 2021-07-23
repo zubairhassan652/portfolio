@@ -6,4 +6,4 @@ RUN yarn
 RUN yarn build
 RUN yarn global add serve
 
-CMD ["serve", "-s", "build", "-l", "tcp://0.0.0.0:${PORT}}"]
+CMD ["serve", "-s", "build", "-l", "tcp://0.0.0.0:${PORT}"]
