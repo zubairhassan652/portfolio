@@ -19,6 +19,9 @@
 .env.production.local
 .vscode
 .eslintcache
+certificate.crt 
+private.key 
+
 
 
 npm-debug.log*
